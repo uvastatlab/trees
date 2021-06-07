@@ -1,6 +1,10 @@
 # tree data analysis
 # diameter, height and volume of timber in 31 felled black cherry trees.
 
+# packages
+library(ggplot2)
+
+# volume v. girth
 data("trees")
 summary(trees)
 pairs(trees)
@@ -8,3 +12,7 @@ pairs(trees)
 pairs(trees, panel = panel.smooth, main = "trees data")
 plot(Volume ~ Girth, data = trees, log = "xy")
 
+# heigh v. girth
+ggplot(trees[order(trees$Girth), ], aes(x = Girth, y = Height)) +
+  geom_point() +
+  geom_smooth(method = 'loess', color = 'forestgreen')
