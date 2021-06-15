@@ -15,4 +15,5 @@ plot(Volume ~ Girth, data = trees, log = "xy")
 # heigh v. girth
 ggplot(trees[order(trees$Girth), ], aes(x = Girth, y = Height)) +
   geom_point() +
-  geom_smooth(method = 'loess', color = 'forestgreen')
+  geom_smooth(method = 'loess', color = 'forestgreen') +
+  ggtitle('Height versus Girth')
