@@ -2,7 +2,7 @@
 # diameter, height and volume of timber in 31 felled black cherry trees.
 
 # packages
-library(lattice)
+library(ggplot2)
 
 # volume v. girth
 data("trees")
