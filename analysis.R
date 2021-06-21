@@ -41,5 +41,5 @@ quantile(coefs[, 2], c(.025, .975))
 abs((sum(coefs[, 2] > coef(mod)[2]) / b) - 0.5)
 
 # histogram of bootstrapped coefficients
-hist(coefs[,'Girth'], main = "Distribution of bootstrapped coefficients",
+hist(coefs[,'Girth'], main = "DistrIBution of Bootstrapped COeFfiCients",
      xlab = "Bootstrap Girth")
