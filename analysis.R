@@ -13,6 +13,17 @@ black_cherry_wiki <- read_html('https://en.wikipedia.org/wiki/Prunus_serotina') 
   gsub('(\\[)(\\d+)(\\])', '', .)
 black_cherry_wiki
 
+# [1] "Prunus serotina, commonly called black cherry,wild black cherry, rum
+# cherry, or mountain black cherry, is a deciduous tree or shrub of the genus
+# Prunus. Despite being called black cherry, it is not very closely related to
+# the commonly cultivated cherries such as sweet cherry (P. avium), sour cherry
+# (P. cerasus) and Japanese flowering cherries (P. serrulata, P. speciosa, P.
+# sargentii, P. incisa, etc.) which belong to Prunus subg. Cerasus. Instead, P.
+# serotina belongs to Prunus subg. Padus, a subgenus also including Eurasian
+# bird cherry (P. padus) and chokecherry (P. virginiana). The species is
+# widespread and common in North America and South America."
+
+
 #####################
 # Assorted analyses #
 #####################
