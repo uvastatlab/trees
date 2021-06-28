@@ -4,7 +4,6 @@
 # Packages
 library(ggplot2)
 library(rvest)
-library(stringi)
 
 # First: What are these things?
 black_cherry_wiki <- read_html('https://en.wikipedia.org/wiki/Prunus_serotina') %>% 
